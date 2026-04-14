@@ -21,27 +21,20 @@ The primary goal of this milestone is to demonstrate the ability to:
 ## Repository Structure
 
 ├── Codes<br>
-├    ├─EDA<br>
-├    ├   ├──EDA_for_ML_Model_DS.ipynb<br>
-├    ├   ├──EDA_for_ML_Model_DS.ipynb.pdf<br>
-├    ├<br>
-├    ├─WQI Implementation Code<br>
-├    ├   ├──WQI_implementation_DSML.ipynb<br>
-├    ├   ├──WQI_implementation_DSML.ipynb.pdf<br>
+├    ├──SOTA Comp AWQI.ipynb<br>
+├    ├──SOTA Comp DWQI.ipynb<br>
+├    ├──SOTA Comp IWQI.ipynb<br>
+├    ├──SOTA Comp IndWQI.ipynb<br>
 ├<br>
 ├── Datasets<br>
-├    ├──Final Dataset For ML\ df_scaled_minmax.csv<br>
-├    ├──Raw Dataset\ merge_master.csv<br>
-├    ├──Dataset with WQI\ Output.csv<br>
+├    ├──Milestone II.csv<br>
 ├<br>
 ├── Latex File\Water_Quality_Index_Prediction_Using Machine Learnig.zip<br>
-├── Milestone-1.pptx<br>
+├── Milestone- II.pptx<br>
 └── README.md
 
 
-- To run `WQI_implementation_DSML.ipynb` file, you need to use `merge_master.csv` dataset.
-- To run `EDA_for_ML_Model_DS.ipynb` file, you need to use `Output.csv` dataset.
-- Then you will get the final output and export `df_scaled_minmax.csv` dataset thats ready for ML based analysis.
+- To run all ML code, such as `SOTA Comp AWQI.ipynb` file, you need to use `Milestone II.csv` dataset.
 
 ---
 
@@ -71,7 +64,7 @@ Then load it:
 
 ```python
 import pandas as pd
-df = pd.read_csv("dataset file.csv")
+df = pd.read_csv("Milestone II.csv")
 ```
 
 ### Option 2: Use Google Drive (Recommended)
@@ -85,7 +78,7 @@ Authorize access, then load the dataset:
 
 ```python
 import pandas as pd
-df = pd.read_csv('/content/drive/MyDrive/path_to_your_dataset/Output.csv')
+df = pd.read_csv('/content/drive/MyDrive/path_to_your_dataset/Milestone II.csv')
 ```
 
 ▶️ Running the Notebook
