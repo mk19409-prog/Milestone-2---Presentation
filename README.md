@@ -124,4 +124,22 @@ Visualizations were created to uncover patterns, relationships, and trends:
 
 All visualizations are publication-quality with clear titles, labeled axes, consistent color schemes, and interpretation text accompanying each figure.
 
+## Water Quality Index Model Implemented
 
+- **AWQI:** Aquaculture Water Quality Index
+- **DWQI:** Drinking Water Quality Index 
+- **IWQI:** Irrigation Water Quality Index 
+- **IndWQI:** Industrial Water Quality Index 
+
+## Machine Learning Model Implemented
+
+- Ridge Regression
+- Lasso Regression
+- Linear Regression
+- Decision Tree Regressor
+- Random Fores Regressor
+- XGB Regressor
+- Gradiant Boosting Regressor
+- LightBGM Regressor
+- KNN Regressor
+- MLP Regressor 
