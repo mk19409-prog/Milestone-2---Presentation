@@ -25,12 +25,21 @@ The primary goal of this milestone is to demonstrate the ability to:
 ├    ├──SOTA Comp DWQI.ipynb<br>
 ├    ├──SOTA Comp IWQI.ipynb<br>
 ├    ├──SOTA Comp IndWQI.ipynb<br>
+├    ├──EDA_for_ML_Model_DSML.ipynb<br>
 ├<br>
 ├── Datasets<br>
 ├    ├──Milestone II.csv<br>
 ├<br>
+├── Exported PDF for Codes<br>
+├    ├──SOTA Comp AWQI.ipynb.pdf<br>
+├    ├──SOTA Comp DWQI.ipynb.pdf<br>
+├    ├──SOTA Comp IWQI.ipynb.pdf<br>
+├    ├──SOTA Comp IndWQI.ipynb.pdf<br>
+├    ├──EDA_for_ML_Model_DSML.ipynb - Colab.pdf<br>
+├<br>
 ├── Latex File\Water_Quality_Index_Prediction_Using Machine Learnig.zip<br>
 ├── Milestone- II.pptx<br>
+├── Report File Latex Milestrone 2.pdf<br>
 └── README.md
 
 
