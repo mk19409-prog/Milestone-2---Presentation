@@ -131,7 +131,6 @@ Visualizations were created to uncover patterns, relationships, and trends:
 - **Feature Relationships:** Scatter plots or pair plots for interactions and target variable relationships.  
 - **Time Series / Specialized Plots:** Trend visualizations, geographic plots, or alternative visualizations appropriate to the dataset.  
 
-All visualizations are publication-quality with clear titles, labeled axes, consistent color schemes, and interpretation text accompanying each figure.
 
 ## Water Quality Index Model Implemented
 
@@ -140,25 +139,9 @@ All visualizations are publication-quality with clear titles, labeled axes, cons
 - **IWQI:** Irrigation Water Quality Index 
 - **IndWQI:** Industrial Water Quality Index 
 
-## Proposed Model Architecture
-
-The proposed framework combines temporal modeling, attention mechanisms, and multi-task learning:
-
-# Input:
-- 10 physicochemical parameters
-# LSTM Layers:
-- First layer captures basic feature dependencies
-- Second layer learns deeper nonlinear relationships
-# Multi-Head Attention:
-- Identifies important feature interactions
-- Improves interpretability by weighting key parameters
-# Pooling Layer:
-- Converts sequence output into a shared representation
-# Multi-Task Output Heads:
-- Simultaneously predict IndWQI, IWQI, DWQI, and AWQI
 
 
-## Existing Baseline (following) Comparison with Proposed Method:
+## Existing Baseline Models Implementation:
 
 - Ridge Regression
 - Lasso Regression
