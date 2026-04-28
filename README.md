@@ -140,7 +140,25 @@ All visualizations are publication-quality with clear titles, labeled axes, cons
 - **IWQI:** Irrigation Water Quality Index 
 - **IndWQI:** Industrial Water Quality Index 
 
-## Machine Learning Model Implemented
+## Proposed Model Architecture
+
+The proposed framework combines temporal modeling, attention mechanisms, and multi-task learning:
+
+# Input:
+- 10 physicochemical parameters
+# LSTM Layers:
+- First layer captures basic feature dependencies
+- Second layer learns deeper nonlinear relationships
+# Multi-Head Attention:
+- Identifies important feature interactions
+- Improves interpretability by weighting key parameters
+# Pooling Layer:
+- Converts sequence output into a shared representation
+# Multi-Task Output Heads:
+- Simultaneously predict IndWQI, IWQI, DWQI, and AWQI
+
+
+## Existing Baseline (following) Comparison with Proposed Method:
 
 - Ridge Regression
 - Lasso Regression
@@ -152,3 +170,11 @@ All visualizations are publication-quality with clear titles, labeled axes, cons
 - LightBGM Regressor
 - KNN Regressor
 - MLP Regressor 
+
+
+## Evaluation Metrics
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
